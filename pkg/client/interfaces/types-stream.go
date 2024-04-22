@@ -18,6 +18,7 @@ type LiveTranscriptionOptions struct {
 	Channels        int      `json:"channels,omitempty" url:"channels,omitempty"`
 	Diarize         bool     `json:"diarize,omitempty" url:"diarize,omitempty"`
 	DiarizeVersion  string   `json:"diarize_version,omitempty" url:"diarize_version,omitempty"`
+	Dictation       bool     `json:"dictation" url:"dictation,omitempty"`
 	Encoding        string   `json:"encoding,omitempty" url:"encoding,omitempty"`
 	Endpointing     string   `json:"endpointing,omitempty" url:"endpointing,omitempty"`
 	Extra           []string `json:"extra,omitempty" url:"extra,omitempty"`
