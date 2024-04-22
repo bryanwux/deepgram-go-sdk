@@ -13,7 +13,7 @@ import (
 	prettyjson "github.com/hokaccha/go-prettyjson"
 	klog "k8s.io/klog/v2"
 
-	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/api/live/v1/interfaces"
+	interfaces "github.com/bryanwux/deepgram-go-sdk/pkg/api/live/v1/interfaces"
 )
 
 // DefaultCallbackHandler is a default callback handler for live transcription

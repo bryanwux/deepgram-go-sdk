@@ -5,7 +5,7 @@
 package live
 
 import (
-	common "github.com/deepgram/deepgram-go-sdk/pkg/common"
+	common "github.com/bryanwux/deepgram-go-sdk/pkg/common"
 )
 
 // please see pkg/common/init.go for more information
